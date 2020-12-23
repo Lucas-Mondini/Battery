@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d23f1b-bcea-4473-b636-04d1983c2bff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/Battery/Pickup.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Battery/Pickup.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battery.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Battery.uproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Pickup_BP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Battery/Pickup.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/Pickup.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/Battery/Pickup.h" />
       <option value="$PROJECT_DIR$/Source/Battery/Pickup.cpp" />
+      <option value="$PROJECT_DIR$/Source/Battery/Pickup.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m2KLfwoubyDmxeqUc375zt6o4t" />
@@ -150,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608686207626</updated>
-      <workItem from="1608686233544" duration="276000" />
+      <workItem from="1608686233544" duration="1452000" />
     </task>
     <servers />
   </component>
