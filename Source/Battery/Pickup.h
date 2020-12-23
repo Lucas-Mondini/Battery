@@ -30,14 +30,15 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Pickup")
 		bool IsActive();
 	UFUNCTION(BlueprintCallable, Category = "Pickup")
-	void SetActive(bool newState);
+		void SetActive(bool newState);
 	//Getter and setter for bIsActive
 
 	/* Return the mesh for the pickup*/
 	FORCEINLINE class UStaticMeshComponent* GetMesh() const { return PickupMesh; }
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Pickup")
-	void WasCollected();
+		void WasCollected();
+	
 	virtual void WasCollected_Implementation();
 
 	/*Static Mesh to represent the pickup in the level */
