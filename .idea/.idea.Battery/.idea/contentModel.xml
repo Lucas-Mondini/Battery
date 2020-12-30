@@ -32,6 +32,8 @@
           <e p="BatteryCharacter.h" t="Include" />
           <e p="BatteryGameMode.cpp" t="Include" />
           <e p="BatteryGameMode.h" t="Include" />
+          <e p="BatteryPickup.cpp" t="Include" />
+          <e p="BatteryPickup.h" t="Include" />
           <e p="Pickup.cpp" t="Include" />
           <e p="Pickup.h" t="Include" />
         </e>

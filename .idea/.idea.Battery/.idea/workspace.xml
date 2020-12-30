@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d23f1b-bcea-4473-b636-04d1983c2bff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/Pickup_BP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Battery/Pickup.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/Pickup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pickup_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pickup_BP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Level1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Level1.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Level1_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Level1_BuiltData.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,8 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Source/Battery/Pickup.cpp" />
       <option value="$PROJECT_DIR$/Source/Battery/Pickup.h" />
+      <option value="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" />
+      <option value="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m2KLfwoubyDmxeqUc375zt6o4t" />
@@ -151,13 +156,16 @@
       <option name="presentableId" value="Default" />
       <updated>1608686207626</updated>
       <workItem from="1608686233544" duration="1452000" />
+      <workItem from="1609353484757" duration="127000" />
+      <workItem from="1609353964171" duration="389000" />
+      <workItem from="1609354404475" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
