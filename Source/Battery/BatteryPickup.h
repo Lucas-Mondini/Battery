@@ -14,4 +14,7 @@ class BATTERY_API ABatteryPickup : public APickup
 {
 	GENERATED_BODY()
 	
+	public:
+	 ABatteryPickup();
+	
 };

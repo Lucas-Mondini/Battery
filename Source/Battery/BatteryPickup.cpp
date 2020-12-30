@@ -3,3 +3,7 @@
 
 #include "BatteryPickup.h"
 
+ABatteryPickup::ABatteryPickup(){
+
+	GetMesh()->SetSimulatePhysics(true);
+}
