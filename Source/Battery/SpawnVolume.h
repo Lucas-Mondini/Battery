@@ -24,12 +24,19 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Spawning")
 		TSubclassOf<class APickup> WhatToSpawn;
 
+	FTimerHandle SpawnTimer;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
+		float SpawnDelayRangeLow;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
+		float SpawnDelayRangeHigh;
+
 public:	
 	// Called every frame
 	//virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintPure, Category = "Spawning")
-		FVector GetRandomPointInVolume();
+		FVector GetRandomPointInVolume() const;
 	UFUNCTION(BlueprintPure, Category = "Spawning")
         FRotator GetRandomObjectRotation();
 
@@ -41,4 +48,6 @@ private:
 		UBoxComponent* WhereToSpawn;
 	
 	void SpawnPickup();
+
+	float SpawnDelay;
 };

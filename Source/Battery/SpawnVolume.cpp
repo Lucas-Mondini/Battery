@@ -2,6 +2,10 @@
 
 
 #include "SpawnVolume.h"
+
+
+#include "AssetTypeCategories.h"
+#include "BatteryPickup.h"
 #include  "Kismet/KismetMathLibrary.h"
 #include  "Pickup.h"
 
@@ -14,20 +18,25 @@ ASpawnVolume::ASpawnVolume()
 	WhereToSpawn = CreateDefaultSubobject<UBoxComponent>(TEXT("WhereToSpawn"));
 	RootComponent = WhereToSpawn;
 
+	SpawnDelayRangeHigh = 3.0f;
+	SpawnDelayRangeLow = 1.0f;
+
 }
 
 // Called when the game starts or when spawned
 void ASpawnVolume::BeginPlay()
 {
 	Super::BeginPlay();
+
+	SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
+	GetWorldTimerManager().SetTimer(SpawnTimer, this, &ASpawnVolume::SpawnPickup, SpawnDelay, false);
 	
 }
 
-FVector ASpawnVolume::GetRandomPointInVolume()
+FVector ASpawnVolume::GetRandomPointInVolume() const
 {
-	FVector SpawnOrigin, SpawnExtend;
-	SpawnOrigin = WhereToSpawn->Bounds.Origin;
-	SpawnExtend = WhereToSpawn->Bounds.BoxExtent;
+	FVector const SpawnOrigin = WhereToSpawn->Bounds.Origin;
+	FVector const SpawnExtend = WhereToSpawn->Bounds.BoxExtent;
 
 	return  UKismetMathLibrary::RandomPointInBoundingBox(SpawnOrigin, SpawnExtend);
 }
@@ -54,6 +63,8 @@ void ASpawnVolume::SpawnPickup()
 		SpawnParameters.Instigator = GetInstigator();
 
 		APickup* const SpawnedPickup = World->SpawnActor<APickup>(WhatToSpawn, SpawnLocation, SpawnRotation, SpawnParameters);
+
+		GetWorldTimerManager().SetTimer(SpawnTimer, this, &ASpawnVolume::SpawnPickup, SpawnDelay, false);
 
 	}
 }
