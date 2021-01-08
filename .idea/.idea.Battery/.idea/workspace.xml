@@ -7,10 +7,12 @@
   <component name="ChangeListManager">
     <list default="true" id="96d23f1b-bcea-4473-b636-04d1983c2bff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Level1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Level1.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Level1_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Level1_BuiltData.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Battery/Pickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/Pickup.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Battery/SpawnVolume.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/SpawnVolume.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Battery/SpawnVolume.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/SpawnVolume.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +30,14 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/Battery/Pickup.cpp" />
-      <option value="$PROJECT_DIR$/Source/Battery/Pickup.h" />
-      <option value="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" />
-      <option value="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" />
       <option value="$PROJECT_DIR$/Source/Battery/SpawnVolume.h" />
       <option value="$PROJECT_DIR$/Source/Battery/SpawnVolume.cpp" />
+      <option value="$PROJECT_DIR$/Source/Battery/Pickup.h" />
+      <option value="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" />
+      <option value="$PROJECT_DIR$/Source/Battery/Pickup.cpp" />
+      <option value="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" />
+      <option value="$PROJECT_DIR$/Source/Battery/BatteryCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/Battery/BatteryCharacter.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m2KLfwoubyDmxeqUc375zt6o4t" />
@@ -281,6 +285,7 @@
       <workItem from="1609354404475" duration="1077000" />
       <workItem from="1609806198877" duration="3379000" />
       <workItem from="1609884358289" duration="2405000" />
+      <workItem from="1610067776122" duration="1830000" />
     </task>
     <servers />
   </component>
