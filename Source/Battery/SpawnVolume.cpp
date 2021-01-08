@@ -4,8 +4,7 @@
 #include "SpawnVolume.h"
 
 
-#include "AssetTypeCategories.h"
-#include "BatteryPickup.h"
+
 #include  "Kismet/KismetMathLibrary.h"
 #include  "Pickup.h"
 
