@@ -46,6 +46,3 @@ void APickup::WasCollected_Implementation()
 	UE_LOG(LogClass, Log, TEXT("You have collected %s"), *PickupDebugString);
 }
 
-
-
-
