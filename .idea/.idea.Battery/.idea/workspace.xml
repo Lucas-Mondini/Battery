@@ -6,9 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d23f1b-bcea-4473-b636-04d1983c2bff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battery/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryCharacter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryPickup.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/BatteryPickup.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Battery/Pickup.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Battery/Pickup.cpp" afterDir="false" />
@@ -285,7 +282,7 @@
       <workItem from="1609354404475" duration="1077000" />
       <workItem from="1609806198877" duration="3379000" />
       <workItem from="1609884358289" duration="2405000" />
-      <workItem from="1610067776122" duration="1830000" />
+      <workItem from="1610067776122" duration="2310000" />
     </task>
     <servers />
   </component>
